@@ -11,7 +11,7 @@ namespace RemoveNegativesAndReverse
             // Lists
             string[] input = Console.ReadLine().Split(' ');
 
-            List < int > nums = new List<int>();
+            List <int> nums = new List<int>();
 
             for (int i = 0; i < input.Length; i++)
             {

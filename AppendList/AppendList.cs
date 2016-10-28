@@ -14,30 +14,24 @@ namespace AppendList
 
             List<string> results = new List<string>();
 
-            //for (int i = 0; i < input.Length; i++)
-            //{
-            //    List<string> temp = new List<string> { input[i] };
-
-            //}
-
             for (int i = 0; i < input.Length; i++)
             {
-                string[] tokens = input[i].Split(' ' );
-                for (int j = 0; j < tokens.Length; j++)
+                string[] temp = input[i].Split(' ');
+                for (int j = temp.Length - 1; j >= 0; j--)
                 {
-                    if (tokens[j] != "")
+                        results.Add(temp[j]);
+
+                    if (temp[j] == "")
                     {
-                        results.Add(tokens[j]);
-                        //results.Remove(tokens[j]);
+                        results.Remove(temp[j]);
                     }
-                    
                 }
-                
             }
 
             results.Reverse();
 
             Console.WriteLine(string.Join(" ", results));
+            
         }
     }
 }

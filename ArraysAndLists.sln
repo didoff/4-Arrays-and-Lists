@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveNegativesAndReverse",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendList", "AppendList\AppendList.csproj", "{397538D3-C952-42F8-B250-841CE2D150D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumAdjacentEqualNumbers", "SumAdjacentEqualNumbers\SumAdjacentEqualNumbers.csproj", "{7968E5E8-392A-47B0-892C-00A9A3F24E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplitByWordCasing", "SplitByWordCasing\SplitByWordCasing.csproj", "{72AED37A-1D5D-4D6C-9B10-4B673B058DBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{397538D3-C952-42F8-B250-841CE2D150D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{397538D3-C952-42F8-B250-841CE2D150D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{397538D3-C952-42F8-B250-841CE2D150D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7968E5E8-392A-47B0-892C-00A9A3F24E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7968E5E8-392A-47B0-892C-00A9A3F24E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7968E5E8-392A-47B0-892C-00A9A3F24E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7968E5E8-392A-47B0-892C-00A9A3F24E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72AED37A-1D5D-4D6C-9B10-4B673B058DBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72AED37A-1D5D-4D6C-9B10-4B673B058DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72AED37A-1D5D-4D6C-9B10-4B673B058DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72AED37A-1D5D-4D6C-9B10-4B673B058DBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
